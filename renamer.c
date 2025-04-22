@@ -21,6 +21,10 @@ int main(int argc, char* argv[])
     {
         printf("File renamed: %s\n", new_name);
     }
+    else if (strcmp(old_name, new_name) == 0)
+    {
+        printf("File name is already formatted.\n");
+    }
     else
     { 
         perror("Error");
