@@ -5,12 +5,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Downcases all letters and replaces space with underscores
+// Make the name lowercase and replaces space with underscores
 char* format(const char* name)
 {
     int length = strlen(name);
     char* formatted = malloc(length + 1);
-
+ 
     if (!formatted)
     {
         perror("malloc");
@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
 {
     if (argc != 2)
     {
-        printf("Usage : ./renamer file\n");
+        printf("Usage : ./renamer <filename>\n");
         return 1;
     }
 
