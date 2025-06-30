@@ -12,7 +12,7 @@ Straightforward CLI tool to format file names.
 
 ### What's to come
 
-Letting user specify the formatting options.
+Letting user specify the formatting options by giving parameters.
 
 `./renamer <filename> <separator> <letterformat>`
 
