@@ -10,8 +10,6 @@ Straightforward CLI tool to format file names.
 
 `My Project.txt` would become `my_project.txt`.
 
----
-
 ### What's to come
 
 Letting user specify the formatting options.
